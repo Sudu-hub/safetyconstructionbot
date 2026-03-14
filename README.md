@@ -206,7 +206,25 @@ This launches a browser-based interface where users can interact with the assist
 * Which safety topics are improving over time?
 
 ---
+### Embedding Model
 
+The Azure environment provided for the hackathon only includes the GPT-4o deployment, which supports chat completion but does not support embedding generation. Attempting to generate embeddings with GPT-4o results in the following error:
+
+OperationNotSupported: embeddings operation does not work with model gpt-4o
+
+To address this limitation, the project uses local embeddings via the SentenceTransformers library instead of Azure embeddings.
+
+Embedding Model Used: all-MiniLM-L6-v2
+
+This model is lightweight, fast, and works effectively for semantic search in the RAG pipeline.
+
+Architecture:
+
+Embeddings: Local (SentenceTransformers – all-MiniLM-L6-v2)
+
+Vector Store: FAISS
+
+LLM: GPT-4o (Azure OpenAI)
 ## Technologies Used
 
 * Python
