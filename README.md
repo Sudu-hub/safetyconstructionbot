@@ -1,5 +1,20 @@
 # Construction Safety AI Assistant
 
+Construction Safety AI
+Running the App
+
+> Local URL: http://localhost:8501
+> Network URL: http://10.240.5.195:8501
+
+Run the Streamlit application locally:
+Steps of to run:
+
+> Pull repository 
+> git clone https://github.com/vConstruct-Hackathon/vConstruct-Hackathon-sudarshansahane1044.git
+> streamlit run app.py
+
+Make sure you are connected to the same network to access the application.
+
 ## Overview
 
 Construction projects generate large volumes of safety information across the project lifecycle—from early planning documents to on-site inspection logs, corrective actions, trend dashboards, and post-handover maintenance records. In practice, this information is split across unstructured documents and structured numeric tables. Finding the right answer quickly depends on understanding both the lifecycle hierarchy and which data source contains the answer.
