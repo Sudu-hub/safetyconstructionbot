@@ -1,17 +1,21 @@
 # Construction Safety AI Assistant
 
-Construction Safety AI
-Running the App
-
-> Local URL: http://localhost:8501
-> Network URL: http://10.240.5.195:8501
-
 Run the Streamlit application locally:
 Steps of to run:
 
 > Pull repository 
 > git clone https://github.com/vConstruct-Hackathon/vConstruct-Hackathon-sudarshansahane1044.git
+
+> Start the Streamlit server:
+
 > streamlit run app.py
+
+Once the server starts, open the network URL shown in the terminal. Example:
+
+Network URL = http://192.168.1.25:8501
+
+Note: The application will only be accessible while the Streamlit server is running.
+
 
 Make sure you are connected to the same network to access the application.
 
