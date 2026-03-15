@@ -4,7 +4,6 @@ Run the Streamlit application locally:
 Steps of to run:
 
 > Pull repository 
-> git clone https://github.com/vConstruct-Hackathon/vConstruct-Hackathon-sudarshansahane1044.git
 
 > Start the Streamlit server:
 
@@ -133,10 +132,6 @@ construction-safety-ai
 
 Clone the repository:
 
-```
-git clone https://github.com/yourusername/construction-safety-ai.git
-cd construction-safety-ai
-```
 
 Install dependencies:
 
